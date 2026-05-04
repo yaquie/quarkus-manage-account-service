@@ -27,6 +27,7 @@ public class AccountController {
     @Path("/{documentNumber}")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Account> getAccountsByDoucment(@PathParam("documentNumber") String documentNumber) {
-        return accountService.getAccountsByCustomer(documentNumber);
+        //return accountService.getAccountsByCustomer(documentNumber);
+        return null;
     }
 }
